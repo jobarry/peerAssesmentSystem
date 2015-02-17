@@ -12,7 +12,7 @@ if($conn -> connect_error){
 	die("Connection failed:".$conn->connect_error);
 	
 }
-
+//
 $sql = "INSERT INTO Forum (idForums,title) VALUES (14,'BOWEN')";
 
 if ($conn->query($sql)===true) {
